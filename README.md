@@ -1,6 +1,6 @@
 # Sudoku Game
 
-A simple interactive Sudoku game built using Python and Pygame, where users can solve randomized Sudoku puzzles, clear the board, generate new puzzles, and track their solving time.
+A simple interactive Sudoku game built using Python and Pygame, where users can generate and solve randomized Sudoku puzzles.
 
 ## Table of Contents
 1. [Features](#features)
@@ -10,8 +10,8 @@ A simple interactive Sudoku game built using Python and Pygame, where users can 
 5. [License](#license)
 
 ## Features
-- Generates randomized Sudoku puzzles with a single solution  
-- Allows users to input numbers to solve the puzzle  
+- Generates randomized Sudoku puzzles with a single, unique solution using backtracking and recursion
+- Allows users to input numbers to solve the puzzle using a GUI
 - Clear board functionality to remove user inputs  
 - "New Game" button to generate fresh puzzles  
 - Timer display to track puzzle-solving time  
@@ -24,7 +24,7 @@ To get started with the Sudoku game, follow these steps:
    git clone git@github.com:joeyallen1/Sudoku-Game.git
 2. Navigate to the Project Directory
    ```bash
-   cd "Sudoku-Game"
+   cd "Sudoku Game"
 3. Install Dependencies
    ```bash
    pip install pygame numpy
@@ -33,9 +33,9 @@ To get started with the Sudoku game, follow these steps:
    python Sudoku.py
 
 ## Usage
-Once the game starts, a randomly generated Sudoku puzzle will appear on the screen. Use the mouse to select cells and input numbers to solve the puzzle.
+Once the game starts, a randomly generated Sudoku puzzle will appear on the screen. Use the mouse to select cells and input numbers to solve the puzzle. Correct guesses will appear in blue and incorrect guesses will appear in red.
 
-You can also clear the board, generate new puzzles, and check the solution using the available buttons.
+You can also clear the board, generate new puzzles, and press the finish button to freeze the timer.
 
 ## Controls
 - Input Numbers: Click on a blank square and press any number key (1-9) to fill it in.
