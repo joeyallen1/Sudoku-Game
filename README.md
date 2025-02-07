@@ -30,7 +30,7 @@ To get started with the Sudoku game, follow these steps:
    pip install pygame numpy
 4. Run the Game
    ```bash
-   python Sudoku.py
+   python3 Sudoku.py
 
 ## Usage
 Once the game starts, a randomly generated Sudoku puzzle will appear on the screen. Use the mouse to select cells and input numbers to solve the puzzle. Correct guesses will appear in blue and incorrect guesses will appear in red.
